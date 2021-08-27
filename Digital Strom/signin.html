@@ -1,0 +1,138 @@
+<html>
+<head><title>Digital Strom : Log In</title>
+<style>
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: red;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color:red;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover{
+  color: black;
+} 
+.dropdown:hover .dropbtn {
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:#b71212;
+  color:black;
+}
+.dropdown-content a:hover{background-color:red;color:black;}
+
+.glow{width:470px;height:110px;background:url("logo-digital-storm-x2.png") no-repeat;background-height:108;background-width:452 ;opacity:10%;}
+.glow:hover{width:470px; background:url("gold.png") no-repeat;opacity:12;
+	 
+}
+p{font-size:20px}
+</style></head>
+<body background="Digital-Storm-Wallpaper-1.jpg">
+<a href="prot1.html"><div class="glow">
+</div></a>
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">PRODUCTS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    
+	<div class="dropdown-content">
+      <a href="edit.html"><img src ="008.png" width="144" height="144"><br><center>Editor's Choise</center></a>
+      <a href="Workstation.html"><img src ="009.png" width="144" height="144"><br><center>Workstations</center></a>
+      <a href="sign.html"><img src ="010.png" width="144" height="144"><br><center>Signature Series</center></a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">FEEDBACK
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="faq.html">FAQ</a>
+      <a href="suggestion.html">Suggestions</a>
+     
+    </div>
+  </div>
+   <div class="dropdown"><a href="about.html">ABOUT US</a></div>
+   
+  <a href="signin.html" style="float:right">LOGIN</a>
+  <a href="form.html" style="float:right">SIGN UP</a>
+</div>
+<br>
+<br>
+<form><center>
+<fieldset style="width:1000px; border-width:15px;color:white; border-color:red;">
+<legend style="font-size:40px;font-family:;color:White">LOG IN</legend>
+<br>
+<br>
+<br>
+<div style="text-align:center;font-size:30px">
+User name:</div><br><center><input type="text" name="usnm" placeholder="Username" style="size:30px"></center><br>
+<br>
+<br><br>
+<br>
+<div style="text-align:center;font-size:30px">
+Password:</div><br><center><input type="password" name="psw" placeholder="Password"></center><br>
+<br>
+<br><br>
+<center><input type="submit" value="Submit">
+<br>
+<br></center>
+</fieldset>
+</center>
+</form>
+</body>
+</html>
